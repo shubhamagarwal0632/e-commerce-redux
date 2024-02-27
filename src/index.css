@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  height: 100vh;
+  justify-content: center;
+  /* background-color:aqua ; */
+}
+
+.card {
+  /* padding:5px; */
+  margin: 25px;
+  /* background-color: blue; */
+}
+
+/* .btn{ */
+/* align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+} */
+img {
+  width: 20vw;
+  border-radius: 5px;
+}
+
+.conformoreproduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainofmoreproductcomponents {
+  margin: 55px;
+
+}
+.emptyportion{
+  width: 100% ;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 390px) {
+  nav {
+    color: #fff;
+    width: 100vw;
+    /* padding: 5px; */
+    display: flex;
+    /* gap: 72px; */
+    /* margin: 20p; */
+    justify-content: space-between;
+  }
+  .navpt{
+    width: 100%;
+    padding: 7px;
+    display: flex;
+    background-color: #1c1919;
+    margin: 1px;
+  }
+  .mid {
+    /* width: 15rem; */
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+  .card{
+    width: 310px;
+  }
+  .cartcontainer{
+    width: 100vw;
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .cartcontainer .clearbtn{
+    margin-left: 15vh;
+    margin-bottom: 5px;
+  }
+
+  .emptyportion{
+    width: 100vw;
+    text-align: center;
+  }
+}
