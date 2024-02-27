@@ -81,7 +81,7 @@ function MoreProduct() {
           </div>
         </div>
         {<hr />}
-        <h2>Releted Product</h2>
+        <h2 className='text-white'>Releted Product</h2>
         <Product items={reletedproduct} />
       </div>
     </>

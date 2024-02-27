@@ -17,14 +17,16 @@ export const Cart = (items) => {
     <>
 
       <ToastContainer/> 
-      <div className="container cartcontainer text-center" style={{ width: "700px" }}>
+      <div className="container cartcontainer text-center" 
+      // style={{ width: "700px" }}
+      >
         <div className="emptyportion">
 
         {
           cartitem.length == 0 && (
             <>
-              <h2>Your Cart is Empty</h2>
-              <Link to={'/'} className='btn btn-primary'>Continue Shopping.....</Link>
+              <h2 className='text-white'>Your Cart is Empty</h2>
+              <Link to={'/'} className='btn btn-primary'><h2 className=''>Continue Shopping.....</h2></Link>
             </>
           )
         }
