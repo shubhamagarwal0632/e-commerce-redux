@@ -70,7 +70,9 @@ img {
     padding: 7px;
     display: flex;
     background-color: #1c1919;
-    margin: 1px;
+    /* margin: 1px; */
+    justify-content: space-between;
+
   }
   .mid {
     /* width: 15rem; */
@@ -103,6 +105,9 @@ img {
 
   .conformoreproduct{
     width: 100%;
+  }
+  .card{
+    margin: 2px;
   }
    /* .mainofmoreproductcomponents{
     width: 100%;
