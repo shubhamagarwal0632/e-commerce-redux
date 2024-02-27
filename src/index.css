@@ -42,7 +42,8 @@ img {
 }
 
 .mainofmoreproductcomponents {
-  margin: 55px;
+  /* margin: 55px; */
+  text-align: center;
 
 }
 .emptyportion{
@@ -98,4 +99,16 @@ img {
     width: 100vw;
     text-align: center;
   }
+
+  .conformoreproduct{
+    width: 100%;
+  }
+  /* .mainofmoreproductcomponents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* /* align-items: center; */ 
+    /* text-align: center; */
+  /* } */ */
 }

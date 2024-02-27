@@ -81,6 +81,7 @@ function MoreProduct() {
           </div>
         </div>
         {<hr />}
+        <h2>Releted Product</h2>
         <Product items={reletedproduct} />
       </div>
     </>
